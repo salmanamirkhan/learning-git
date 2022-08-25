@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.hero {
+  height: 969px;
+  font-family: "Silkscreen", cursive;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero image {
+  width: 1400px;
+}
+
+section {
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+h2 {
+  padding-bottom: 2em;
+  font-family: "Silkscreen", cursive;
+}
+
+h3 {
+  font-family: "Silkscreen", cursive;
+}
+
+p {
+  padding-bottom: 2em;
+  font-family: "Montserrat", sans-serif;
+}
+
+button {
+  margin-top: 3em;
+  width: 8em;
+}
+
+h3 {
+  padding: 2em 2em;
+}
+
+header {
+  background-color: #e7f6f2;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 30px;
+  padding-top: 25px;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  color: white;
+  background-color: #444;
+}
+
+.logo {
+  padding-top: 25px;
+}
+
+body {
+  background-color: #e7f6f2;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+.about-me {
+  padding-top: 5em;
+  display: flex;
+  height: 800px;
+  padding-bottom: 10em;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5em;
+  justify-content: center;
+}
+
+.services {
+  height: 500px;
+  padding-bottom: 10em;
+}
+
+.service-info {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.recent-work {
+  height: 700px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.works-grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.work-card {
+  height: 280px;
+}
+
+.blog {
+  height: 700px;
+}
+
+.blog-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-card {
+  height: 400px;
+  width: 33%;
+}
+
+.contact {
+  height: 700px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10%;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+.name {
+  width: 40%;
+}
+
+.phone {
+  width: 40%;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 12px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+footer {
+  height: 100px;
+}
